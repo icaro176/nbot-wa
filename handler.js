@@ -533,7 +533,7 @@ cmd.on('ping', /^((bot|)stat(s|)|botinfo|infobot|ping|speed)$/i, async function 
     const loadedMsg = await client.getAmountOfLoadedMessages()
     const chatIds = await client.getAllChatIds()
     const groups = await client.getAllGroups()
-    const groupsIn = groups.filter(x => x.groupMetadata.participants.map(x => [botNumber, '6281515860089@c.us'].includes(x.id._serialized)).includes(true))
+    const groupsIn = groups.filter(x => x.groupMetadata.participants.map(x => [botNumber, '557988645802@c.us'].includes(x.id._serialized)).includes(true))
     const me = await client.getMe()
     const battery = await client.getBatteryLevel()
     const isCharging = await client.getIsPlugged()
@@ -897,7 +897,7 @@ cmd.on('keylist', 'keylist', async function (client = new Client(), { from, id }
 })
 
 cmd.on('test', 'test', function (client = new Client(), { from, id }) {
-    // client.sendText('6281515860089@c.us', util.format(_, o))
+    // client.sendText('557988645802@c.us', util.format(_, o))
     console.log(formatName(this.text))
     // client.reply(from, formatName(this.text), id)
 })
@@ -1186,8 +1186,8 @@ Tanda *@user* = di mention atau disebut
 *${prefix}help* [command]${command ? `\n║\n║ *Info Fitur*:\n║ ${reference}` : ''}
 ${readMore}
 • *Menu Admin* •
-➕ *${prefix}add* <62XXXXXXXXXX1> [<62XXXXXXXXXXX> ...]
-➖ *${prefix}kick* <62XXXXXXXXXX1> [<62XXXXXXXXXXX> ...]
+➕ *${prefix}add* <55XXXXXXXXXX1> [<55XXXXXXXXXXX> ...]
+➖ *${prefix}kick* <55XXXXXXXXXX1> [<55XXXXXXXXXXX> ...]
 🔼 *${prefix}promote* <@user>
 🔽 *${prefix}demote* <@user>
 
@@ -1249,7 +1249,7 @@ ${(config.iklan || []).map((iklan, i) => `${i + 1}. ${iklan}`).join('\n') || '_T
 𝙉𝙪𝙧𝙪𝙩𝙤𝙢𝙤 (Nurutomo)
 https://github.com/Nurutomo/
 Repo: https://github.com/Nurutomo/nbot-wa
-${readMore}wa.me/6281515860089
+${readMore}wa.me/557988645802
 `.slice(1, -1)
 }
 
