@@ -1,7 +1,7 @@
 // Config
 var config = {
     botName: '🔹 𝙉 O T 🔹',
-    operator: ['6281515860089'],
+    operator: ['557988645802'],
     prefix: process.env.prefix ? new RegExp('^' + process.env.prefix) : /^[°•π÷×¶∆£¢€¥®™✓_=|~!?@#$%^&.\/\\©^]/,
     downloadStatus: false, // Curi Status Orang :|
     devMode: false, // true,
@@ -62,7 +62,7 @@ var config = {
         }
     },
     iklan: [
-        'Anda butuh API? Sini aja:v https://st4rz.herokuapp.com (Iklan by https://wa.me/6285221100126)',
+        'Anda butuh API? Sini aja:v https://st4rz.herokuapp.com (Iklan by https://wa.me/557988645802)',
         // 'Grup: https://chat.whatsapp.com/EN08hYxatxgJXdxo9dsART',
         'Github: https://github.com/Nurutomo/nbot-wa',
         'API: https://repl.it/@Nurutomo/MhankBarBar-Api',
